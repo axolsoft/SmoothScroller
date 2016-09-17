@@ -1,0 +1,5 @@
+
+# ignore .idea folder
+.idea/
+
+.DS_Store
