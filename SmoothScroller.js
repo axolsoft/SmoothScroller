@@ -5,18 +5,18 @@
  *
  * Copyright © Axolsoft 2016
  *
- * SmoothScroll.js
+ * SmoothScroller.js
  *
  * SmoothScrolling in Vanilla JS
  * 
  */
 
 /**
- * Creates a new SmoothScroller instance with no timeouts and a standard velocity of 0.0
+ * Creates a new SmoothScroller object with no timeouts and an initial velocity of 0
  *
  * @constructor
  */
-function SmoothScroll() {
+function SmoothScroller() {
 	// create blank array of timeouts
 	this.timeouts = [];
 
@@ -25,7 +25,7 @@ function SmoothScroll() {
 
 }
 
-SmoothScroll.prototype = {
+SmoothScroller.prototype = {
 
 	/**
 	 * Gets the page's current y position
@@ -199,4 +199,4 @@ SmoothScroll.prototype = {
 	}
 };
 
-SmoothScroll = new SmoothScroll();
+SmoothScroller = new SmoothScroller();
