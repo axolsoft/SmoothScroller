@@ -103,7 +103,7 @@ SmoothScroller.prototype = {
 	 */
 	scrollToId: function(eID, scrollRate) {
 
-		// frame rate of 8.666667 milliseconds (instead of 16.67 for a flat 60 fps)
+		// frame time of 8.666667 milliseconds (instead of 16.67 for a flat 60 fps)
 		var frameRate   = 8.6666666667;
 
 		if(!scrollRate) {
